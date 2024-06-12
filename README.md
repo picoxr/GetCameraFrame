@@ -1,5 +1,8 @@
 # GetCameraFrame
 
+## DISCLAIMER: This API is reserved for Enterprise developers who sign up for our testing program. If you're interested, reach out to pico-business-techsupport@bytedance.com
+
+
 ## Description
 This demo acquires an anti-distorted frame from a VST camera, processes it into a texture, updates a UI element to display the texture, encodes the texture to a JPG, and sends the encoded image to Azure Vision API for further analysis.
 ## Demo requirements
@@ -10,8 +13,7 @@ This demo acquires an anti-distorted frame from a VST camera, processes it into 
 - XR Interaction Toolkit 2.5.2 + Starter Assets
 - Android Logcat
 ## About AcquireVSTCameraFrameAntiDistortion
-DISCLAIMER: This API is reserved for Enterprise developers who sign up for our testing program. If you're interested, reach out to pico-business-techsupport@bytedance.com
-public static int AcquireVSTCameraFrameAntiDistortion(int width, int height, out Frame frame)
+
 > Acquires RGB camera frame (the image after anti-distortion).
 
 ## Parameters
