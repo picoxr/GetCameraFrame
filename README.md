@@ -1,6 +1,6 @@
 # GetCameraFrame
 
-## DISCLAIMER: This API is reserved for Enterprise developers who sign up for our testing program. If you're interested, reach out to pico-business-techsupport@bytedance.com
+## DISCLAIMER: This API is reserved for Enterprise developers who sign up for our testing program. If you're interested in joining, reach out to pico-business-techsupport@bytedance.com
 
 
 ## Description
