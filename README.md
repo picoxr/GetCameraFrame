@@ -18,6 +18,8 @@ This demo acquires an anti-distorted frame from a VST camera, processes it into 
 ## Dependencies (UPM)
 - XR Interaction Toolkit 2.5.2 + Starter Assets
 - Android Logcat
+### Third party assets
+- Plastic materials from: https://freepbr.com/materials/worn-scuffed-plastic-pbr-material/
 ## About AcquireVSTCameraFrameAntiDistortion
 
 > Acquires RGB camera frame (the image after anti-distortion).
