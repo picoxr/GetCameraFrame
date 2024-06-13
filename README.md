@@ -5,6 +5,12 @@
 
 ## Description
 This demo acquires an anti-distorted frame from a VST camera, processes it into a texture, updates a UI element to display the texture, encodes the texture to a JPG, and sends the encoded image to Azure Vision API for further analysis.
+
+## Setup
+- Once you have a PICO Enterprise authorization (by reaching out to the address above), you must change the package name to the one you provided for the authorization procedure.
+- The **package name** is bunlded with the **SN code** of your authorized device. Running the apk with another package name, or on an different device, will result in the API not providing any camera data.
+- **[OPTIONAL]** You can also set up an Azure Computer Vision resource. You can then set your resource endpoint and API key in the code. For reference: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/how-to/call-analyze-image-40?tabs=csharp&pivots=programming-language-rest-api
+
 ## Demo requirements
 - Unity 2022.3.f1
 - PICO XR SDK 2.5.0
